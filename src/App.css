@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.main {
+  height: 100vh;
+  /* font-family: "Cormorant Garamond", serif; */
+  /* font-family: "Roboto", sans-serif;  */
+  /* font-family: "Poppins", serif; */
+  font-family: "Lora", sans-serif;
+  background-image: url("./assets/default.png");
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  /* backdrop-filter: blur(2px); */
+}
+.center {
+  border: 0px solid black;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  /* background-image: url("blue-dark-gradient-thumbnail.jpg"); */
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.upperdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.blur {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.para {
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  text-align: center;
+  color: white;
+  padding: 0px 2px;
+  font-size: 14px;
+}
+
+.searchdiv {
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+  color: white;
+}
+
+.firstInput {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.humidity {
+  font-size: 12px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
